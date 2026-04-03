@@ -1,0 +1,81 @@
+.s1 {
+    background-color: greenyellow;
+    font-size: 60px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    animation:Color 4s infinite;
+}
+@keyframes Color{
+    0%{background-color: lemonchiffon;}
+    20%{background-color: lightblue;}
+    40%{background-color: lightcoral;}
+    60%{background-color: lightcyan;}
+    80%{background-color: lightgoldenrodyellow;}
+    100%{background-color: lightgray;}
+}
+.s2{
+    font-size: 30px;
+    background-color: lightcoral;
+}
+.img1{
+    width: 30px;
+    height: 30px;
+}
+.s3{
+    font-size: 30px;
+    background-color: rgb(151, 229, 203);
+}
+.img2{
+    width: 40px;
+    height: 40px;
+}
+.T1{
+  display: flex;
+  text-align: center;
+  background-color: aliceblue;
+}
+.thethao{
+    width: 60px;
+    height: 60px;
+}
+.s4{
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+.T2{
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(208, 138, 113);
+}
+.s5{
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: rgb(137, 162, 209);
+}
+.Muctieu{
+    width: 60px;
+    height: 60px;
+}
+.img3{
+    width: 60px;
+    height: 60px;
+}
+.ANH{
+    display: flex;
+   gap: 20px;
+   justify-content: center;
+   animation:Color 3s infinite ;
+}
+.ANH img{
+    width: 80px;
+    height: 80px;
+}
+@keyframes Color{
+    0%{background-color: #C6A477;}
+    25%{background-color: #ECD59F;}
+    50%{background-color: #D3E7EE;}
+    75%{background-color: #ABD1DC;}
+    100%{background-color: #7097A8;}
+}
